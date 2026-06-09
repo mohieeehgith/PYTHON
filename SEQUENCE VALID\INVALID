@@ -1,0 +1,7 @@
+n=int(input("Enter the input:"))
+s=str(n)
+a1,b1,c1=int(s[0]),int(s[1]),int(s[2])
+if(a1+1==b1 and b1+1==c1 or a1-1==b1 and b1-1==c1):
+    print("Valid")
+else:
+    print("Invalid")
