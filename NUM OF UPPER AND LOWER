@@ -1,0 +1,10 @@
+a="iniNDIAwONthEmATCH"
+up=0
+lw=0
+for i in a:
+    if i.isupper():
+        up=up+1
+    else:
+        lw=lw+1
+print("Upper character is :",up)
+print("Lower character is :",lw)
