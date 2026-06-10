@@ -1,0 +1,6 @@
+names=["GILL","RAGUL","DHONI","IYER","VIRAT"]
+age=[24,28,40,29,32]
+res=list(zip(age,names))
+res1=sorted(res,reverse=True)
+for i in range(5):
+    print("{}.{} - {} yrs old".format(i+1,res1[i][1],res1[i][0]))
