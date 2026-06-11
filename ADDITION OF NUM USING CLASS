@@ -1,0 +1,16 @@
+class abc:
+    dept="IT"
+    def set_dim(self):
+        x=int(input("Enter the num:"))
+        y=int(input("Enter the num:"))
+        self.a=x 
+        self.b=y  
+    def display(self):
+        print(self.a + self.b)
+
+a1=abc()
+a1.set_dim()
+a1.display()
+a2=abc()
+a2.set_dim()
+a2.display()
