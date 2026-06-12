@@ -1,0 +1,10 @@
+n=10
+m=12
+big=max([n,m])
+step=big
+while(True):
+    if big%n==0 and big%m==0:
+        break
+    else:
+        big=big+step
+print(big)
