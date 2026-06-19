@@ -1,0 +1,6 @@
+Rs=int(input("Enter the amount in Rs. : "))
+notes=[500,200,100,50,20,10,5,2,1]
+for i in notes:
+    while(i<=Rs):
+        print(i,end=" ")
+        Rs=Rs-i
