@@ -1,0 +1,32 @@
+b=input("Enter boy name:")
+g=input("Enter girl name:")
+b1=list(b)
+g1=list(g)
+
+for i in range(len(b1)):
+    for j in range(len(g1)):
+        if b1[i]==g1[j]:
+            b1[i]='1'        
+            g1[j]='1'        
+
+print(b1)
+print(g1)
+
+c=0
+for i in b1:
+    if i!='1':
+        c=c+1
+
+for i in g1:
+    if i!='1':
+        c=c+1
+
+print(c)
+
+r=['F','L','A','M','E','S']  
+index=0
+for i in range(5):
+    index=(index+(c-1))%len(r)
+    r.pop(index)
+
+print(r)
